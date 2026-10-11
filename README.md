@@ -1,35 +1,43 @@
-**Blinkit E-Commerce Customer & Sales Performance Analysis**
+Blinkit E-Commerce Customer & Sales Performance Analysis
 
 End-to-end data analytics project simulating a quick-commerce business, from raw data to an interactive Power BI dashboard.
 
-**Overview**
+Overview
+This project analyzes 3,000 orders from 400 customers across 49 products and 8 warehouse cities. SQL was used for querying, Python for data preparation, and Power BI for building the interactive dashboard.
 
-This project analyzes 3,000 orders, 400 customers, 49 products, and 8 warehouse cities for a Blinkit-style quick-commerce business. SQL was used for querying and data cleaning, Python for data preparation, and Power BI for building an interactive dashboard to uncover customer, sales, and delivery performance insights.
+Tools Used
+- SQL (MySQL), for data cleaning, joins, and aggregate queries
+- Python (Pandas), for data preparation
+- Power BI (DAX, dashboarding), for visualization
 
-**Tools Used**
+Dataset
+The dataset has 5 tables:
+- products: 49 items across 10 categories
+- customers: 400 customers
+- warehouses: 8 cities
+- orders: 3,000 orders from Jul 2025 to Jun 2026
+- order_items: 8,958 line records
 
-SQL, MySQL, for data cleaning, joins, and aggregate queries. Python, Pandas, for data preparation. Power BI, DAX and dashboarding, for building the interactive report.
+Dashboard Pages
 
-**Dataset**
+Overview Page
+Total revenue, orders, customers and average rating KPIs, a monthly revenue trend, orders by category, top selling products, and revenue by location.
 
-The dataset contains 5 tables. Products, 49 items across 10 categories. Customers, 400 customer records. Warehouses, 8 warehouse cities. Orders, 3,000 orders from July 2025 to June 2026. Order Items, 8,958 line-level records.
+![Overview Page](overview-page.png)
 
-**Dashboard Pages**
+Insights Page
+First-time vs repeat orders, revenue by payment method, customer ratings distribution, return and cancellation rate by category, and average delivery time by warehouse city.
 
-Overview page, includes 4 KPI cards, a monthly revenue trend chart, orders by category donut chart, top selling products table, and revenue by location map.
+![Insights Page](insights-page.png)
 
-`overview-page.png`
+Key Insights
+- Repeat customers drive the business, making up 87% of all orders.
+- UPI leads as the top payment method, bringing in about ₹4.49 lakh in revenue.
+- Baby Care has the highest cancellation and return rate, at roughly 15.5%, while Fruits & Vegetables has the lowest at 10.45%.
+- Pune is the fastest warehouse city, averaging just 16.4 minutes per delivery, while Kolkata is the slowest at 17.44 minutes.
+- Fruits & Vegetables accounts for the largest share of orders, at 14.74%.
 
-Insights page, includes first-time versus repeat orders, revenue by payment method, customer ratings distribution, return and cancellation rate by category, and average delivery time by warehouse city, along with a quick insights summary panel.
-
-`insight-page.png`
-
-**Key Insights**
-
-Repeat customers drive the business, making up 87% of all orders. UPI leads as the top payment method, bringing in about ₹4.49 lakh in revenue. Baby Care has the highest cancellation and return rate, at roughly 15.5%. Pune is the fastest warehouse city, averaging just 16.4 minutes per delivery. Fruits & Vegetables is the top-selling category by revenue and has the lowest cancellation rate, at 10.45%, while Kolkata is the slowest delivery city, at 17.44 minutes.
-
-**Connect**
-
-Email, bishtprashant98@gmail.com. LinkedIn, linkedin.com/in/prashant-bisht-551172396.
-
+Connect
+Email: bishtprashant98@gmail.com
+LinkedIn: linkedin.com/in/prashant-bisht-551172396
 
