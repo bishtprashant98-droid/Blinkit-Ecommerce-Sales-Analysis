@@ -18,11 +18,11 @@ The dataset contains 5 tables. Products, 49 items across 10 categories. Customer
 
 Overview page, includes 4 KPI cards, a monthly revenue trend chart, orders by category donut chart, top selling products table, and revenue by location map.
 
-Image line: `Overview Page`
+Image line: `overview-page.png`
 
 Insights page, includes first-time versus repeat orders, revenue by payment method, customer ratings distribution, return and cancellation rate by category, and average delivery time by warehouse city, along with a quick insights summary panel.
 
-Image line: `Insights Page`
+Image line: `insight-page.png`
 
 **Key Insights**
 
